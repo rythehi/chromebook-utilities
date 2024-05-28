@@ -1,0 +1,55 @@
+#body{
+    background-color: black;
+}
+.text{
+    color: white;
+    margin-left: 10px;
+}
+#blooket{
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 45%;
+    height: 45%;
+    top: 0px;
+    margin: 5px;
+}
+#edpuzzle{
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    position: relative;
+    width: 45%;
+    height: 50%;
+    margin: 5px;
+    margin-top: 10px;
+}
+#gimkit{
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    position: relative;
+    width: 50%;
+    height: 45%;
+    left: 49%;
+    top: -97.5%;
+    margin: 5px;
+    margin-top: 10px;
+}
+#kahoot{
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 49%;
+    top: -97.5%;
+    margin: 5px;
+    margin-top: 10px;
+}
+#othercheats{
+    position: relative;
+    top: -98%;
+}

@@ -1,8 +1,168 @@
 <html>
+    <!--For this page i was going to make all boxes with catagories for the cheats, then i gotinto it and it was too much for me right now -->
     <header>
-        
+        <link rel="stylesheet" href="styles/cheats.css">
     </header>
     <body id="body">
-
+        <div id="blooket">
+        <center><h1 id="blookleth" class="text">Blooklet</h1></center>
+        <p id="bl1" class="text">
+        Unfortunately, minesraft2 was ceased and desisted by Blooket. Here's a backup of his cheats:<br>
+        <br>
+        <a href="https://05konz.github.io/Blooket-Cheats">https://05konz.github.io/Blooket-Cheats/</a><br>
+        <a href="https://05konz.github.io/Blooket-Cheats">https://github.com/05Konz/Blooket-Cheats</a><br>
+            <br>
+        Original:<br>
+        https://minesraft2.github.io/Blooket-Cheats/<br>
+        https://github.com/Minesraft2/Blooket-gui<br>
+            <br>
+        How to use:<br>
+        If you want to use the GUIs (purple boxes), drag the boxes into your bookmark bar.<br>
+        Click the orange boxes for parts of game modes to use.<br>
+            <br>
+        WARNING: THIS WILL NOT WORK ON MANAGED CHROMEBOOKS ANYMORE UNLESS YOU DOWNGRADE TO A VERSION<br>
+        THAT LETS THEM WORK (JAVASCRIPT BOOKMARKLETS WERE PATCHED)<br>
+        </p>
+        </div>
+        <div id="edpuzzle">
+            <center><h1 class="text">Edpuzzle</h1></center>
+            <p class="text">
+                Edpuzzle Cheats! This won't work on your chromebook if you are on a later version of chromeos that blocked javascript. However, you can probably use another device.<br>
+                <br>
+                BOOKMARK THIS:<br>
+                javascript: fetch("https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest/script.js").then(r => r.text()).then(r => eval(r))<br>
+                <br>
+                Features:<br>
+                1. Can fetch and display the multiple-choice answers for any Edpuzzle assignment<br>
+                2. Can automatically answer all the multiple-choice questions in an assignment<br>
+                3. Includes a video skipper which allows for arbitrary navigation within an assignment<br>
+                4. Has an option to prevent pausing the video when the tab is hidden<br>
+                5. Has a tool to change the video speed<br>
+                6. Shows various stats about the assignment<br>
+                7. Has a decent looking GUI<br>
+                8. No login or extension required<br>
+                9. Uses about:blank so it doesn't go into your browser history<br>
+                10. Works on private Edpuzzle videos<br>
+                11. Supports Edpuzzles embedded in Canvas and Schoology<br>
+                <br>
+                <i>Credits:</i><br>
+                ading2210/vk6<br>
+                <a>https://github.com/ading2210/edpuzzle-answers</a><br>
+                https://edpuzzle.hs.vc/<br>
+            </p>
+            </p>
+        </div>
+        <div id="gimkit">
+            <center><h1 class="text">Gimkit</h1></center>
+            <p class="text">
+                Cheats for Gimkit:<br>
+                <br>
+                Bookmarklet:<br>
+                javascript:(function(){let l=document.createElement("script");l.src="https://undercovermoose.github.io/gimkitjs/gimkit.js";document.body.appendChild(l);}());void 0<br>
+                <br>
+                Console:<br>
+                function(){let l=document.createElement("script");l.src="https://undercovergoose.github.io/quizlet/gimkit/gimkit.js";document.body.appendChild(l);}();<br>
+                <br>
+                Credits: <br>
+                <a href="https://github.com/UndercoverGoose/classroom-cheats">https://github.com/UndercoverGoose/classroom-cheats</a><br>
+            </p>
+        </div>
+        <div id="kahoot">
+            <center><h1 class="text">Kahoot</h1>
+            <p class="text">
+                https://mem.rip/kahoot/<br>
+                It has a bot flooder and spoof winner!<br>
+                <br>
+                https://kahoot.club<br>
+                It has a bot flooder too and an auto answer!<br>
+                <br>
+                (Yep, this file is finally updated!)<br>
+            </p> 
+            </center>
+        </div>
+        <div id="othercheats">
+            <center><h1 class="text">Other cheats/Quizizz and Quizlet</h1></center>
+                    <h6 class="text">PS. the dev is just to lazy and busy to continue making those boxes</h6>
+                    <h2 class="text">>Quizizz</h2>
+                    <p class="text">
+                        Cheats for Quizizz:<br>
+                        <br>
+                        Instructions:<br>
+                        Join the quizizz and go through the questions. When you are finished, press "Study Flashcards" and run the script.<br>
+                        Then join the quizizz again or start another attempt. Run the script and you are done! <br>
+                        <br>
+                        Bookmarklet Script:<br>
+                        javascript:(function(){let l=document.createElement("script");l.src="https://undercovergoose.github.io/quizlet/quizizz/script.js";document.body.appendChild(l);}());void 0<br>
+                        <br>
+                        Alternate Script:<br>
+                        javascript:(function(){let l=document.createElement("script");l.src="https://undercovermoose.github.io/quizizzjs/script.js";document.body.appendChild(l);}());void 0<br>
+                        <br>
+                        You can run the above scripts in the console/inspect element. Just remove the javascript: part and the void 0 part at the end.<br>
+                        <br>
+                        Credits:<br>
+                        https://github.com/UndercoverGoose/classroom-cheats<br> 
+                    </p>
+                    <h2 class="text">>Quizlet</h2>
+                    <p class="text">
+                        Cheats for Quizlet:<br>
+                        These work as bookmarklets and in the console.<br>
+                        <br>
+                        Quizlet Live:<br>
+                        javascript:try{async function getSetId(pin){const res=await fetch(`https://quizlet.com/webapi/3.8/multiplayer/game-instance?gameCode=${pin}`);const json=await res.json();if(json.error)throw new Error(json.error.message);return json.gameInstance.itemId;}async function getSetData(setId){const res=await fetch(`https://quizlet.com/${setId}`);const text=await res.text();const data=text.match(/\\"termIdToTermsMap\\":{.+?{.+?\\"termSort\\":/gi)?.[0];if(!data)throw new Error("Failed to parse set data.");const parsed=JSON.parse(data.slice(21,-14).replaceAll(`\\"`,`"`));return[Object.fromEntries(Object.values(parsed).map(({word, definition})=>[word, definition])),Object.fromEntries(Object.values(parsed).map(({word, definition})=>[definition, word]))];}function getActiveQuestion(){try{const question=document.querySelector(".StudentPrompt-text").textContent;const answers=Array.from(document.querySelectorAll(".StudentAnswerOption-text"));return[question, answers];}catch{}return[null,null];}(async()=>{const pin=prompt("Enter PIN, like: XXX-XXX","").match(/[0-9a-zA-Z]/g).join("");if(pin.length!==6)throw new Error("Pin must be 6 characters in length.");const setId=await getSetId(pin);const[term2Def, def2Term]=await getSetData(setId);setInterval(async function(){const[question,choices]=getActiveQuestion();if(!question||!choices)return;if(question in term2Def){choices.forEach((choice)=>{if(choice.textContent===term2Def[question])choice.style.fontWeight="bolder";});}else if(question in def2Term){choices.forEach((choice)=>{if(choice.textContent===def2Term[question])choice.style.fontWeight="bolder";});}else{choices.forEach((choice)=>{choice.style.fontWeight="normal";});}},0);})()}catch(err){alert(err)};void 0<br>
+                        <br><!--Holy inline javascript-->
+                        Quizlet Match:<br>
+                        javascript:(function(){const matches={};Quizlet.matchModeData.terms.forEach((term)=>{matches[term.word]=term.definition});let css='FormattedText notranslate TermText MatchModeQuestionGridTile-text';if(document.getElementsByClassName(css).length===0){css='MatchModeQuestionScatterTile'}const tiles=Array.from(document.getElementsByClassName(css));const colors=['#f93640','#f98836','#f9e936','#3df936','#36f9d9','#3650f9','#7e36f9','#dc36f9','#ffffff','#a3a3a3','#424242'];Array.from(document.getElementsByClassName('MatchModeQuestionGridTile-image')).forEach((image)=>{image.style.display='none'});let colorIndex=0;for(const term in matches){const definition=matches[term];tiles.forEach((tile)=>{if(tile.textContent===term){tiles.forEach((box)=>{if(box.textContent===definition){box.style.background=colors[colorIndex];box.style.color='black'}});tile.style.background=colors[colorIndex];tile.style.color='black';colorIndex+=1}})}})();void 0<br>
+                        <br>
+                        Quizlet Gravity:<br>
+                        javascript:(function(){if(!window.gooseGravity){window.gooseGravity=true;const matches={};Quizlet.gravityModeData.terms.forEach((term)=>{matches[term.word]=term.definition});const reversed={};for(const term in matches){reversed[matches[term]]=term}setInterval(function(){const asteroids=Array.from(document.querySelectorAll('.TermText'));if(asteroids.length===0){return}asteroids.forEach((asteroid)=>{const term=asteroid.textContent;if(asteroid.gooseAnswered){return}if(term in matches){asteroid.textContent=matches[term];asteroid.gooseAnswered=true}else if(term in reversed){asteroid.textContent=reversed[term];asteroid.gooseAnswered=true}})},100)}})();void 0<br>
+                        <br>
+                        Credits: https://github.com/UndercoverGoose/classroom-cheats<br>
+                    </p>
+                    <h2 class="text">Other Cheats</h2>
+                    <p class="text">
+                        <!--Just so you know this is ALOT of formating and adding <br> tags-->
+                        You can get answers to quizzes and more!<br>
+                        <br>
+                        Quizit: https://quizit.online/<br>
+                        -> Quizizz<br>
+                        -> Kahoot<br>
+                        -> Wordwall<br>
+                        -> Liveworksheets<br>
+                        -> Edpuzzle<br>
+                        -> Quizlet<br>
+                        -> Blooket<br>
+                        -> Gimkit<br>
+                        -> Brainly<br>
+                        -> Testportal<br>
+                        <br>
+                        Cheat Network: https://cheatnetwork.eu/ <br>
+                        -> Quizizz<br>
+                        -> Kahoot<br>
+                        -> Blooket<br>
+                        -> Education Perfect<br>
+                        -> DeltaMath<br>
+                        -> Quizlet<br>
+                        -> Edpuzzle<br>
+                        -> Gimkit<br>
+                        -> Edulastic<br>
+                        -> Liveworksheets<br>
+                        -> LearningApps<br>
+                        -> Nearpod<br>
+                        -> Wordwall<br>
+                        <br>
+                        School Cheats: https://schoolcheats.net/<br>
+                        -> Quizizz<br>
+                        -> Kahoot<br>
+                        -> Edpuzzle<br>
+                        -> Blooket<br>
+                        -> Quiz.com<br>
+                        <br>
+                        Contains getting answers for a new quiz site quiz.com!<br>
+                        <br>
+                        Note: You may need to login with your Discord for some features. <br>
+                        If you only have your chromebook, use a proxy.<br>
+                    </p>
+        </div>
     </body>
 </html>
+<script src="scripts/scripts.js"></script>
